@@ -3,7 +3,7 @@ Scripts and results to help determine the number of translations strings touched
 
 Related to https://www.drupal.org/node/2560783
 
-Tested on OSX10.10 only<br /<
+Tested on OSX10.10 only<br />
 Usage notes from scripts
 
 1. stripHelpPatch.sh<br />
