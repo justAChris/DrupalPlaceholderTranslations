@@ -1,0 +1,5 @@
+Users view feed content in the <a href="!aggregator">main aggregator display</a>, or by <a href="!aggregator-sources">their source</a> (usually via an RSS feed reader). The most recent content in a feed can be displayed as a block through the <a href="!admin-block">Blocks administration page</a>.
+Current feeds are listed below, and <a href="!addfeed">new feeds may be added</a>. For each feed, the <em>latest items</em> block may be enabled at the <a href="!block">blocks administration page</a>.
+Download additional <a href="!modules">contributed modules</a> to extend your site's functionality.
+==================================================
+3 matches found in the translation file

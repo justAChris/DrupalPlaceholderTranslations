@@ -1,0 +1,18 @@
+A working <a href="!cron">cron maintenance task</a> is required to update feeds automatically.
+Current feeds are listed below, and <a href="!addfeed">new feeds may be added</a>. For each feed, the <em>latest items</em> block may be enabled at the <a href="!block">blocks administration page</a>.
+The Ban module allows administrators to ban visits to their site from individual IP addresses. For more information, see <a href="!url">the online documentation for the Ban module</a>.
+Administrators can enter IP addresses to ban on the <a href="!bans">IP address bans</a> page.
+The outline feature allows you to include pages in the <a href="!book">Book hierarchy</a>, as well as move them within the hierarchy or to <a href="!book-admin">reorder an entire book</a>.
+In order to translate configuration, the website must have at least two <a href="!url">languages</a>.
+For more information, see <a href="!forum">the online documentation for the Forum module</a>.
+Enabling the Forum module provides a default <em>Forums</em> menu item in the Tools menu that links to the <a href="!forums">Forums page</a>.
+<strong>Configure your website</strong> Once logged in, visit the <a href="!admin">Administration page</a>, where you may <a href="!config">customize and configure</a> all aspects of your website.
+<strong>Customize your website design</strong> To change the "look and feel" of your website, visit the <a href="!themes">Appearance page</a>. You may choose from one of the included themes or download additional themes from the <a href="!download_themes">Drupal.org themes page</a>.
+If the Block module is enabled, then you can add a language switcher block on the <a href="!blocks">Block layout</a> page to allow users to switch between languages.
+The Taxonomy module allows users who have permission to create and edit content to categorize (tag) content of that type. Users who have the <em>Administer vocabularies and terms</em> <a href="!permissions" title="Taxonomy module permissions">permission</a> can add <em>vocabularies</em> that contain a set of related <em>terms</em>. The terms in a vocabulary can either be pre-set by an administrator or built gradually as content is added and edited. Terms may be organized hierarchically if desired.
+For more information, see the <a href="!taxonomy">online documentation for the Taxonomy module</a>.
+The User module allows users to register, log in, and log out. It also allows users with proper permissions to manage user roles and permissions. For more information, see the <a href="!user_docs">online documentation for the User module</a>.
+Through the <a href="!people">People administration page</a> you can add and cancel user accounts and assign users to roles. By editing one particular user you can change their username, email address, password, and information in other fields.
+For more information, see the <a href="!views">online documentation for the Views module</a>.
+==================================================
+16 matches found in the translation file
