@@ -18,5 +18,6 @@ Usage: ./translateSearch.sh searchTerms translationFile outputFile<br/>
 Example: ./translateSearch.sh helpPatchStrip.txt drupal-8.0.0-beta14.uk.po ukrainianSearch.txt<br />
 Where translationFile is downloaded from https://localize.drupal.org/translate/languages/uk (for example)
 
-
+Updated 09/05/2015:<br />
+Added wholePatchStrip.txt, which is a parsed version of the larger patch where the hook_help originated.
 
