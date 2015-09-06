@@ -4,7 +4,7 @@
 #
 # This script searches for multiple lines in the translation file
 #
-# Usage: ./stripHelpPatch.sh searchTerms translationFile outputFile
+# Usage: ./translateSearch.sh searchTerms translationFile outputFile
 # Tested on OSX 10.10
 #########################
 

@@ -14,7 +14,7 @@ input is the patch file, output will be used in following script (searchTerms)
 
 2. translateSearch.sh<br />
 Searches input translation file for parsed strings from above script<br />
-Usage: ./stripHelpPatch.sh searchTerms translationFile outputFile<br/>
+Usage: ./translateSearch.sh searchTerms translationFile outputFile<br/>
 Example: ./translateSearch.sh helpPatchStrip.txt drupal-8.0.0-beta14.uk.po ukrainianSearch.txt<br />
 Where translationFile is downloaded from https://localize.drupal.org/translate/languages/uk (for example)
 
