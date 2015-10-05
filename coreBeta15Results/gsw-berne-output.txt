@@ -1,0 +1,6 @@
+The %setting setting is currently set to '%current_value', but needs to be '%needed_value'. Change this by running the following query: !query
+!name field is required.
+!name cannot be longer than %max characters but is currently %length characters long.
+Last run !time ago
+==================================================
+4 matches found in the translation file

@@ -1,0 +1,106 @@
+In reply to !parent_title by !parent_username
+Version: !module-version
+Requires: !module-list
+Required by: !module-list
+This theme requires PHP version @php_required and is incompatible with PHP version !php_version.
+Screenshot for !theme theme
+Settings for !theme theme
+Set !theme as default theme
+The %setting setting is currently set to '%current_value', but needs to be '%needed_value'. Change this by running the following query: !query
+!title feed
+!label <span class="visually-hidden">(!source_language)</span>
+Update !title
+The file used in the !name field may not be referenced.
+The file referenced by the !name field does not exist.
+!size limit.
+Required if you want to change the %mail or %pass below. !request_new.
+Failed to connect to the server. The server reports the following message: !message For more help installing or updating code on your server, see the <a href="@handbook_url">handbook</a>.
+File Transfer failed, reason: !reason
+The parent page in the book. The maximum depth for a book and all child pages is !maxdepth. Some pages in the selected book may not be available as parents if selecting them would exceed this limit.
+!name field is required.
+Number of summary rows: !rows
+!message (@percent%).
+This version is not compatible with Drupal !core_version and should be replaced.
+This module requires PHP version @php_required and is incompatible with PHP version !php_version.
+!tour_item of !total
+Site's default language (!language)
+The parent website's description that comes from the !description element in the feed.
+Textfield size: !size
+Number of rows: !rows
+image from !field_name
+Both a height and width value must be specified in the !name field.
+!name cannot be longer than %max characters but is currently %length characters long.
+Files in the !name field were unable to be uploaded.
+file from !field_name
+The "!name" option must contain a valid value. You may either leave the text field empty or enter a string like "512" (bytes), "80 KB" (kilobytes) or "50 MB" (megabytes).
+Date (e.g. !format)
+Time (e.g. !format)
+Last run !time ago
+!time ago
+<em>Simple actions</em> do not require configuration and are listed automatically as available on the <a href="!actions">Actions page</a>.
+The Ban module allows administrators to ban visits to their site from individual IP addresses. For more information, see <a href="!url">the online documentation for the Ban module</a>.
+Administrators can enter IP addresses to ban on the <a href="!bans">IP address bans</a> page.
+The Text Editor module provides a framework that other modules (such as <a href="!ckeditor">CKEditor module</a>) can use to provide toolbars and other functionality that allow users to format text more easily than typing HTML tags directly. For more information, see the <a href="!documentation">online documentation for the Text Editor module</a>.
+The Text Editor module provides a framework for managing editors. To use it, you also need to enable a text editor. This can either be the core <a href="!ckeditor">CKEditor module</a>, which can be enabled on the <a href="!extend">Extend page</a>, or a contributed module for any other text editor. When installing a contributed text editor module, be sure to check the installation instructions, because you will most likely need to download and install an external library as well as the Drupal module.
+The File module allows you to create fields that contain files. See the <a href="!field">Field module help</a> and the <a href="!field_ui">Field UI help</a> pages for general information on fields and how to create and manage them. For more information, see the <a href="!file_documentation">online documentation for the File module</a>.
+The <em>settings</em> and the <em>display</em> of the file field can be configured separately. See the <a href="!field_ui">Field UI help</a> for more information on how to manage fields and their display.
+Text formats define the HTML tags, code, and other formatting that can be used when entering text. <strong>Improper text format configuration is a security risk</strong>. Learn more on the <a href="@filterhelp">Filter module help page</a>.
+<a href="!hal_spec">Hypertext Application Language (HAL)</a> is a format that supports the linking required for hypermedia APIs.
+This module adds support for serializing entities (such as content items, taxonomy terms, etc.) to the JSON version of HAL. For more information, see <a href="!hal_do">the online documentation for the HAL module</a>.
+<strong>Configure your website</strong> Once logged in, visit the <a href="!admin">Administration page</a>, where you may <a href="!config">customize and configure</a> all aspects of your website.
+<strong>Enable additional functionality</strong> Next, visit the <a href="!modules">Extend page</a> and enable modules that suit your specific needs. You can find additional modules at the <a href="!download_modules">Drupal.org modules page</a>.
+<strong>Customize your website design</strong> To change the "look and feel" of your website, visit the <a href="!themes">Appearance page</a>. You may choose from one of the included themes or download additional themes from the <a href="!download_themes">Drupal.org themes page</a>.
+<strong>Start posting content</strong> Finally, you may <a href="!content">add new content</a> to your website.
+For more information, refer to the subjects listed in the Help Topics section or to the <a href="!docs">online documentation</a> and <a href="!support">support</a> pages at <a href="!drupal">drupal.org</a>.
+The Help module displays explanations for using each module listed on the main <a href="!help">Help reference page</a>.
+The <em>settings</em> and the <em>display</em> of the link field can be configured separately. See the <a href="!field_ui">Field UI help</a> for more information on how to manage fields and their display.
+The content access permissions need to be rebuilt. <a href="@node_access_rebuild">Rebuild permissions</a>.
+For more information, see the <a href="!doc_url">online documentation for the Serialization module</a>.
+Define which shortcut set you are using on the <a href="@shortcut-link">Shortcuts tab</a> of your account page.
+The Syslog module logs events by sending messages to the logging facility of your web server's operating system. Syslog is an operating system administrative logging tool that provides valuable information for use in system management and security auditing. Most suited to medium and large sites, Syslog provides filtering tools that allow messages to be routed by type and severity. For more information, see the <a href='!syslog'>online documentation for the Syslog module</a>, as well as PHP's documentation pages for the <a href='!php_openlog'>openlog</a> and <a href='!php_syslog'>syslog</a> functions.
+The Telephone module allows you to create fields that contain telephone numbers. See the <a href="!field">Field module help</a> and the <a href="!field_ui">Field UI help</a> pages for general information on fields and how to create and manage them. For more information, see the <a href="!telephone_documentation">online documentation for the Telephone module</a>.
+The <em>settings</em> and the <em>display</em> of the telephone field can be configured separately. See the <a href="!field_ui">Field UI help</a> for more information on how to manage fields and their display.
+The Text module allows you to create short and long text fields with optional summaries. See the <a href="!field">Field module help</a> and the <a href="!field_ui">Field UI help</a> pages for general information on fields and how to create and manage them. For more information, see the <a href="!text_documentation">online documentation for the Text module</a>.
+The <em>settings</em> and <em>display</em> of the text field can be configured separately. See the <a href="!field_ui">Field UI help</a> for more information on how to manage fields and their display.
+For more information, see the <a href="!views">online documentation for the Views module</a>.
+The Views UI module provides an interface for managing views for the <a href="@views">Views module</a>. For more information, see the <a href="@handbook">online documentation for the Views UI module</a>.
+Views can be created from the <a href="@list">Views list page</a> by using the "Add new view" action. Existing views can be managed from the <a href="@list">Views list page</a> by locating the view in the "Enabled" or "Disabled" list and selecting the desired operation action, for example "Edit".
+Views can be enabled or disabled from the <a href="@list">Views list page</a>. To enable a view, find the view within the "Disabled" list and select the "Enable" operation. To disable a view find the view within the "Enabled" list and select the "Disable" operation.
+Views can be exported and imported as configuration files by using the <a href="@config">Configuration Manager module</a>.
+!group: !title
+@code (!title)
+You may also adjust the !settings for the currently selected access restriction.
+You may also adjust the !settings for the currently selected cache mechanism.
+You may also adjust the !settings for the currently selected style.
+You may also adjust the !settings for the currently selected row style.
+You may also adjust the !settings for the currently selected pager.
+An offset from the current time such as "!example1" or "!example2"
+@label (!name)
+@label (!name:!column)
+@label:!column
+@label (!name:delta)
+!group: !field
+By breaking this lock, any unsaved changes made by !user will be lost.
+Add !display
+The following modules are required but were not found. Move them into the appropriate modules subdirectory, such as <em>/modules</em>. Missing modules: !modules
+Date part order: !order
+Time type: !time_type
+Time increments: !increment
+Also known as: !also.
+!sender-name (!sender-url) sent a message using the contact form at !form-url.
+[!site-name] !subject
+Hello !recipient-name,
+!sender-name (!sender-url) has sent you a message via your contact form at !site-name.
+!name (not verified)
+New release(s) available for !site_name
+Your site is currently configured to send these emails when any updates are available. To get notified only for security updates, !url.
+Your site is currently configured to send these emails only when security updates are available. To get notified for any available updates, !url.
+%archive_file contains a version of %names that is not compatible with Drupal !version.
+%archive_file contains versions of modules or themes that are not compatible with Drupal !version: %names
+Enable !display_title
+View !display_title
+Delete !display_title
+Undo delete of !display_title
+Disable !display_title
+==================================================
+104 matches found in the translation file

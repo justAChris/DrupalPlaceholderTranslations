@@ -1,0 +1,173 @@
+In reply to !parent_title by !parent_username
+Machine name: !machine-name
+Version: !module-version
+Requires: !module-list
+Required by: !module-list
+This theme requires PHP version @php_required and is incompatible with PHP version !php_version.
+Screenshot for !theme theme
+Settings for !theme theme
+Set !theme as default theme
+The %driver database must use %encoding encoding to work with Drupal. Recreate the database with %encoding encoding. See !link for more details.
+The %setting setting is currently set to '%current_value', but needs to be '%needed_value'. Change this by running the following query: !query
+!title feed
+!label <span class="visually-hidden">(!source_language)</span>
+Update !title
+Hovering over the area of interest will temporarily make the contextual links button visible (which looks like a pencil in most themes, and is normally displayed in the upper right corner of the area). The icon typically looks like this: !picture
+The following items in your active configuration have changes since the last import that may be lost on the next import. !changes
+!collection configuration collection
+The file used in the !name field may not be referenced.
+The file referenced by the !name field does not exist.
+!name is required.
+Memory usage is now !usage (!pct% of limit !limit), not enough reclaimed, starting new batch
+Memory usage is now !usage (!pct% of limit !limit), reclaimed enough, continuing
+Required if you want to change the %mail or %pass below. !request_new.
+Unexpected error during import with operation @op for @name: !message
+Failed to connect to the server. The server reports the following message: !message For more help installing or updating code on your server, see the <a href="@handbook_url">handbook</a>.
+File Transfer failed, reason: !reason
+The parent page in the book. The maximum depth for a book and all child pages is !maxdepth. Some pages in the selected book may not be available as parents if selecting them would exceed this limit.
+!name field is required.
+Number of summary rows: !rows
+!message (@percent%).
+This version is not compatible with Drupal !core_version and should be replaced.
+This module requires PHP version @php_required and is incompatible with PHP version !php_version.
+!tour_item of !total
+Site's default language (!language)
+The parent website's description that comes from the !description element in the feed.
+Textfield size: !size
+Number of rows: !rows
+URI field size: !size
+Both a height and width value must be specified in the !name field.
+!name cannot be longer than %max characters but is currently %length characters long.
+The "!name" option must contain a valid value. You may either leave the text field empty or enter a string like "512" (bytes), "80 KB" (kilobytes) or "50 MB" (megabytes).
+Date (e.g. !format)
+Time (e.g. !format)
+Last run !time ago
+!time ago
+The Actions module provides tasks that can be executed by the site such as unpublishing content, sending email messages, or blocking a user. Other modules can trigger these actions when specific system events happen; for example, when new content is posted or when a user logs in. Modules can also provide additional actions. For more information, see the <a href="!documentation">online documentation for the Action module</a>.
+<em>Simple actions</em> do not require configuration and are listed automatically as available on the <a href="!actions">Actions page</a>.
+<em>Advanced actions</em> are user-created and have to be configured individually. Create an advanced action on the <a href="!actions">Actions page</a> by selecting an action type from the drop-down list. Then configure your action, for example by specifying the recipient of an automated email message.
+The Aggregator module is an on-site syndicator and news reader that gathers and displays fresh content from RSS-, RDF-, and Atom-based feeds made available across the web. Thousands of sites (particularly news sites and blogs) publish their latest headlines in feeds, using a number of standardized XML-based formats. For more information, see the <a href="!aggregator-module">online documentation for the Aggregator module</a>.
+Users view feed content in the <a href="!aggregator">main aggregator display</a>, or by <a href="!aggregator-sources">their source</a> (usually via an RSS feed reader). The most recent content in a feed can be displayed as a block through the <a href="!admin-block">Blocks administration page</a>.
+A <a href="!aggregator-opml">machine-readable OPML file</a> of all feeds is available. OPML is an XML-based file format used to share outline-structured information such as a list of RSS feeds. Feeds can also be <a href="!import-opml">imported via an OPML file</a>.
+A working <a href="!cron">cron maintenance task</a> is required to update feeds automatically.
+Current feeds are listed below, and <a href="!addfeed">new feeds may be added</a>. For each feed, the <em>latest items</em> block may be enabled at the <a href="!block">blocks administration page</a>.
+The Ban module allows administrators to ban visits to their site from individual IP addresses. For more information, see <a href="!url">the online documentation for the Ban module</a>.
+Administrators can enter IP addresses to ban on the <a href="!bans">IP address bans</a> page.
+You can see where the regions are for the current theme by clicking the <em>Demonstrate block regions</em> link on the <a href="!blocks">Block layout page</a>. Regions are specific to each theme.
+To change the settings of an individual block click on the <em>Configure</em> link on the <a href="!blocks">Block layout page</a>. The available options vary depending on the module that provides the block. For all blocks you can change the block title and toggle whether to display it.
+You can add custom blocks, if the <em>Custom Block</em> module is installed. For more information, see the <a href="!blockcontent-help">Custom Block help page</a>.
+The Custom Block module allows you to create custom <em>block types</em> and <em>content-containing blocks</em>, and provides a <a href="!block-library">Custom block library</a> listing all of them. Custom block types have fields; see the <a href="!field-help">Field module help</a> for more information. Once created, custom blocks can be placed in regions just like blocks provided by other modules; see the <a href="!blocks">Block module help page</a> for details. For more information, see <a href="!online-help">the online documentation for the Custom Block module</a>.
+Users with the <em>Administer blocks</em> permission can create and edit custom block types with fields and display settings, from the <a href="!types">Custom block types</a> page in the Custom block library. For more information about managing fields and display settings, see the <a href="!field-ui">Field UI module help</a>.
+Users with the <em>Administer blocks</em> permission can create, edit, and delete custom blocks of each custom block type you have defined, from the <a href="!block-library">Custom block library</a> page. Custom blocks are shown in the <em>Place blocks</em> list on the <a href="!blocks">Block layout page</a>; see the <a href="!block_help">Block module help</a> for more information about placing blocks.
+Blocks in the block library belong to <a href="!types">block types</a>, each with its own fields and display settings. After creating a block, place it in a region from the <a href="!blocks">Block layout page</a>.
+Each block type has its own fields and display settings. Create blocks of each type on the <a href="!block-library">Block library page</a>.
+The Book module is used for creating structured, multi-page content, such as site resource guides, manuals, and wikis. It allows you to create content that has chapters, sections, subsections, or any similarly-tiered structure. Enabling the module creates a new content type <em>Book page</em>. For more information, see the <a href="!book">online documentation for the Book module</a>.
+The <em>Book page</em> content type is the initial content type enabled for book outlines. On the <a href="!admin-settings">Book settings page</a> you can configure content types that can used in book outlines.
+The Color module allows users with the <em>Administer site configuration</em> permission to change the color scheme (color of links, backgrounds, text, and other theme elements) of compatible themes. For more information, see <a href="!color_do">the online documentation for the Color module</a>.
+To change the color settings, select the <em>Settings</em> link for your theme on the <a href="!appearance">Appearance</a> page. If the color picker does not appear then the theme is not compatible with the Color module.
+The Comment module allows users to comment on site content, set commenting defaults and permissions, and moderate comments. For more information, see the <a href="!comment">online documentation for the Comment module</a>.
+Comments from users who have the <em>Skip comment approval</em> permission are published immediately. All other comments are placed in the <a href="!comment-approval">Unapproved comments</a> queue, until a user who has permission to <em>Administer comments and comment settings</em> publishes or deletes them. Published comments can be bulk managed on the <a href="!admin-comment">Published comments</a> administration page. When a comment has no replies, it remains editable by its author, as long as the author has <em>Edit own comments</em> permission.
+You can upload a full site configuration from an archive file on the <a href="!url">Import</a> page. When importing data from a different environment, the site and import files must have matching configuration values for UUID in the <em>system.site</em> configuration item. That means that your other environments should initially be set up as clones of the target site. Migrations are not supported.
+You can review differences between the active configuration and an imported configuration archive on the <a href="!synchronize">Synchronize</a> page to ensure that the changes are as expected, before finalizing the import. The Synchronize page also shows configuration items that would be added or removed.
+You can export a single configuration item by selecting a <em>Configuration type</em> and <em>Configuration name</em> on the <a href="!single-export">Single export</a> page. The configuration and its corresponding <em>*.yml file name</em> are then displayed on the page for you to copy.
+You can import a single configuration item by pasting it in YAML format into the form on the <a href="!single-import">Single import</a> page.
+The Configuration Translation module allows you to translate configuration text; for example, the site name, vocabularies, menus, or date formats. Together with the modules <a href="!language">Language</a>, <a href="!content-translation">Content Translation</a>, and <a href="!locale">Interface Translation</a>, it allows you to build multilingual websites. For more information, see the <a href="!doc_url">online documentation for the Configuration Translation module</a>.
+In order to translate configuration, the website must have at least two <a href="!url">languages</a>.
+Users with the <em>Translate user edited configuration</em> permission can access the configuration translation overview, and manage translations for specific languages. The <a href="!translation-page">Configuration translation</a> page shows a list of all configuration text that can be translated, either as individual items or as lists. After you click on <em>Translate</em>, you are provided with a list of all languages. You can <em>add</em> or <em>edit</em> a translation for a specific language. Users with specific configuration permissions can also <em>edit</em> the text for the site's default language. For some configuration text items (for example for the site information), the specific translation pages can also be accessed directly from their configuration pages.
+You can choose to translate date formats on the <a href="!translation-page">Configuration translation</a> page. This allows you not only to translate the label text, but also to set a language-specific <em>PHP date format</em>.
+The Contact module allows visitors to contact registered users on your site, using the personal contact form, and also allows you to set up site-wide contact forms. For more information, see the <a href="!contact">online documentation for the Contact module</a>.
+On the <a href="!contact_admin">Contact forms page</a>, you can configure the fields and display of the personal contact form, and you can set up one or more site-wide contact forms. Each site-wide contact form has a machine name, a label, and one or more defined recipients; when a site visitor submits the form, the field values are sent to those recipients.
+One site-wide contact form can be designated as the default contact form. If you choose to designate a default form, the <em>Contact</em> menu link in the <em>Footer</em> menu will link to it. You can modify this link from the <a href="!menu-settings">Menus page</a> if you have the Menu UI module installed. You can also create links to other contact forms; the URL for each form you have set up has format <em>contact/machine_name_of_form</em>.
+From the <a href="!contact_admin">Contact forms page</a>, you can configure the fields to be shown on contact forms, including their labels and help text. If you would like other content (such as text or images) to appear on a contact form, use a block. You can create and edit blocks on the <a href="!blocks">Block layout page</a>, if the Block module is installed.
+If you have configured a default site-wide contact form, a <em>Contact</em> menu link in the <em>Footer</em> menu will link to it. You can modify this link from the <a href="!menu-settings">Menus page</a> if you have the Menu UI module installed. You can also create links to other contact forms; the URL has format contact/machine_name_of_form.
+If you would like additional text to appear on a site-wide contact page, beyond field labels, use a block. You can create and edit blocks on the <a href="!blocks">Block layout page</a>, if you have the Block module installed.
+The Content Translation module allows you to translate content, comments, custom blocks, taxonomy terms, users and other <a href="!field_help" title="Field module help, with background on content entities">content entities</a>. Together with the modules <a href="!language">Language</a>, <a href="!config-trans">Configuration Translation</a>, and <a href="!locale">Interface Translation</a>, it allows you to build multilingual websites. For more information, see <a href="!translation-entity">the online documentation for the Content Translation module</a>.
+In order to translate content, the website must have at least two <a href="!url">languages</a>. When that is the case, you can enable translation for the desired content entities on the <a href="!translation-entity">Content language</a> page. When enabling translation you can choose the default language for content and decide whether to show the language selection field on the content editing forms.
+Before you can translate content, there must be at least two languages added on the <a href="!url">languages administration</a> page.
+The Contextual links module gives users with the <em>Use contextual links</em> permission quick access to tasks associated with certain areas of pages on your site. For example, a menu displayed as a block has links to edit the menu and configure the block. For more information, see <a href="!contextual">the online documentation for the Contextual Links module</a>.
+If you have the <a href="!toolbar">Toolbar module</a> enabled, clicking the contextual links button in the toolbar (which looks like a pencil) will make all contextual links buttons on the page visible. Clicking this button again will toggle them to invisible.
+The Datetime module provides a Date field that stores dates and times. It also provides the Form API elements <em>datetime</em> and <em>datelist</em> for use in programming modules. See the <a href="!field">Field module help</a> and the <a href="!field_ui">Field UI module help</a> pages for general information on fields and how to create and manage them. For more information, see the <a href="!datetime_do">online documentation for the Datetime module</a>.
+The <em>settings</em> and the <em>display</em> of the Date field can be configured separately. See the <a href="!field_ui">Field UI help</a> for more information on how to manage fields and their display.
+Dates can be displayed using the <em>Plain</em> or the <em>Default</em> formatter. The <em>Plain</em> formatter displays the date in the <a href="http://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> format. If you choose the <em>Default</em> formatter, you can choose a format from a predefined list that can be managed on the <a href="!date_format_list">Date and time formats</a> page.
+The Database Logging module logs system events in the Drupal database. For more information, see the online handbook entry for the <a href="!dblog">Database Logging module</a>.
+The Database Logging module allows you to view an event log on the <a href="!dblog">Recent log messages</a> page. The log is a chronological list of recorded events containing usage data, performance data, errors, warnings and operational information. Administrators should check the log on a regular basis to ensure their site is working properly.
+In case of errors or problems with the site, the <a href="!dblog">Recent log messages</a> page can be useful for debugging, since it shows the sequence of events. The log messages include usage information, warnings, and errors.
+The Text Editor module provides a framework that other modules (such as <a href="!ckeditor">CKEditor module</a>) can use to provide toolbars and other functionality that allow users to format text more easily than typing HTML tags directly. For more information, see the <a href="!documentation">online documentation for the Text Editor module</a>.
+The Text Editor module provides a framework for managing editors. To use it, you also need to enable a text editor. This can either be the core <a href="!ckeditor">CKEditor module</a>, which can be enabled on the <a href="!extend">Extend page</a>, or a contributed module for any other text editor. When installing a contributed text editor module, be sure to check the installation instructions, because you will most likely need to download and install an external library as well as the Drupal module.
+On the <a href="!formats">Text formats and editors page</a> you can see which text editor is associated with each text format. You can change this by clicking on the <em>Configure</em> link, and then choosing a text editor or <em>none</em> from the <em>Text editor</em> drop-down list. The text editor will then be displayed with any text field for which this text format is chosen.
+The Filter module allows administrators to configure text formats. Text formats define the HTML tags, codes, and other input allowed in text entered in the site and they defend your web site against potentially damaging input from malicious users. A visual text editor can be associated with the text formats by using the <a href="!editor_help">Text Editor module</a>. For more information, see <a href="!filter_do">the online documentation for the Filter module</a>.
+Text formats define the HTML tags, code, and other formatting that can be used when entering text. <strong>Improper text format configuration is a security risk</strong>. Learn more on the <a href="@filterhelp">Filter module help page</a>.
+For more information, see <a href="!forum">the online documentation for the Forum module</a>.
+Visit the <a href="!forums">Forums page</a> to set up containers and forums to hold your discussion topics.
+The <a href="!create-topic">Forum topic</a> link on the <a href="!content-add">Add content</a> page creates the first post of a new threaded discussion, or thread.
+The Image module allows you to create fields that contain image files and to configure <a href="!image_styles">Image styles</a> that can be used to manipulate the display of images. See the <a href="!field">Field module help</a> and the <a href="!field_ui">Field UI help</a> pages for terminology and general information on entities, fields, and how to create and manage fields. For more information, see the <a href="!image_documentation">online documentation for the Image module</a>.
+You can also configure a minimum and/or maximum resolution for uploaded images. Images that are too small will be rejected. Images that are to large will be resized. During the resizing the <a href="!exif">EXIF data</a> in the image will be lost.
+The Language module allows you to configure the languages used on your site, and provides information for the for <a href="!content">Content Translation</a>, <a href="!interface">Interface Translation</a>, and <a href="!configuration">Configuration Translation</a> modules, if they are enabled. For more information, see <a href="!doc_url">the online documentation for the Language module</a>.
+It is required by the Menu UI module, which provides an interface for managing menus and menu links. For more information, see the <a href="!menu-help">Menu UI module help page</a> and the <a href="!drupal-org-help">online documentation for the Custom Menu Links module</a>.
+For more information, see the <a href="!drupal-org-help">online documentation for the Custom Menu Links module</a>. If you enable the Menu UI module, it provides an interface for managing menus and menu links.
+The content access permissions need to be rebuilt. <a href="@node_access_rebuild">Rebuild permissions</a>.
+The Internal Page Cache module caches pages for anonymous users in the database. For more information, see the <a href="!pagecache-documentation">online documentation for the Internal Page Cache module</a>.
+On the <a href="!cache-settings">Performance page</a>, you can configure how long browsers and proxies may cache pages; that setting is also respected by the Internal Page Cache module. There is no other configuration.
+For more information, see the <a href="!doc_url">online documentation for the Serialization module</a>.
+Define which shortcut set you are using on the <a href="@shortcut-link">Shortcuts tab</a> of your account page.
+Your site has several file directories, which are used to store and process uploaded and generated files. The <em>public</em> file directory, which is configured in your settings.php file, is the default place for storing uploaded files. Links to files in this directory contain the direct file URL, so when the files are requested, the web server will send them directly without invoking your site code. This means that the files can be downloaded by anyone with the file URL, so requests are not access-controlled but they are efficient. The <em>private</em> file directory, also configured in your settings.php file and ideally located outside the site web root, is access controlled. Links to files in this directory are not direct, so requests to these files are mediated by your site code. This means that your site can check file access permission for each file before deciding to fulfill the request, so the requests are more secure, but less efficient. You should only use the private storage for files that need access control, not for files like your site logo and background images used on every page. The <em>temporary</em> file directory is used internally by your site code for various operations, and is configured on the <a href="!file-system">File system settings</a> page. You can also see the configured public and private file directories on this page, and choose whether public or private should be the default for uploaded files.
+Download additional <a href="!modules">contributed modules</a> to extend your site's functionality.
+Users who have the <em>Administer vocabularies and terms</em> permission or the <em>Edit terms</em> permission for a particular vocabulary can add, edit, and organize the terms in a vocabulary from a vocabulary's term listing page, which can be accessed by going to the <a href="!taxonomy_admin">Taxonomy administration page</a> and clicking <em>List terms</em> in the <em>Operations</em> column. Users must have the <em>Administer vocabularies and terms</em> permission or the <em>Delete terms</em> permission for a particular vocabulary to delete terms.
+A user with the <em>Administer fields</em> permission for a certain entity type may add <em>Taxonomy term</em> reference fields to the entity type, which will allow entities to be classified using taxonomy terms. See the <a href="!entity_reference">Entity Reference help</a> for more information about reference fields. See the <a href="!field">Field module help</a> and the <a href="!field_ui">Field UI help</a> pages for general information on fields and how to create and manage them.
+See the <a href="!entity_reference">Entity Reference help</a> page for the field widgets and formatters that can be configured for any reference field on the <em>Manage display</em> and <em>Manage form display</em> pages. Taxonomy additionally provides an <em>RSS category</em> formatter that displays nothing when the entity item is displayed as HTML, but displays an RSS category instead of a list when the entity item is displayed in an RSS feed.
+The Telephone module allows you to create fields that contain telephone numbers. See the <a href="!field">Field module help</a> and the <a href="!field_ui">Field UI help</a> pages for general information on fields and how to create and manage them. For more information, see the <a href="!telephone_documentation">online documentation for the Telephone module</a>.
+The <em>settings</em> and the <em>display</em> of the telephone field can be configured separately. See the <a href="!field_ui">Field UI help</a> for more information on how to manage fields and their display.
+The Text module allows you to create short and long text fields with optional summaries. See the <a href="!field">Field module help</a> and the <a href="!field_ui">Field UI help</a> pages for general information on fields and how to create and manage them. For more information, see the <a href="!text_documentation">online documentation for the Text module</a>.
+The <em>settings</em> and <em>display</em> of the text field can be configured separately. See the <a href="!field_ui">Field UI help</a> for more information on how to manage fields and their display.
+If you choose <em>Text (plain)</em> or <em>Text (plain, long)</em> you restrict the input to <em>Plain text</em> only. If you choose <em>Text (formatted)</em>, <em>Text (formatted, long)</em>, or <em>Text (formatted, long with summary)</em> you allow users to write formatted text. Which options are available to individual users depends on the settings on the <a href="!formats">Text formats and editors page</a>.
+The Toolbar module provides a toolbar for site administrators, which displays tabs and trays provided by the Toolbar module itself and other modules. For more information, see the <a href="!toolbar_docs">online documentation for the Toolbar module</a>.
+The Tour module provides users with guided tours of the site interface. Each tour consists of several tips that highlight elements of the user interface, guide the user through a workflow, or explain key concepts of the website. For more information, see <a href='!tour'>the online documentation for the Tour module</a>.
+Tours can be written as YAML-documents with a text editor, or using the contributed <a href='!tour_ui'>Tour UI</a> module. For more information, see <a href='!doc_url'>the online documentation for writing tours</a>.
+The Activity Tracker module displays the most recently added and updated content on your site, and allows you to follow new content created by each user. This module has no configuration options. For more information, see the <a href="!tracker">online documentation for the Tracker module</a>.
+The <a href="!recent">Recent content</a> page shows new and updated content in reverse chronological order, listing the content type, title, author's name, number of comments, and time of last update. Content is considered updated when changes occur in the text, or when new comments are added. The <em>My recent content</em> tab limits the list to the currently logged-in user.
+Because User accounts are an entity type, you can extend them by adding fields through the Manage fields tab on the <a href="!accounts">Account settings page</a>. By adding fields for e.g., a picture, a biography, or address, you can a create a custom profile for the users of the website. For background information on entities and fields, see the <a href="!field_help">Field module help page</a>.
+Permissions let you control what users can do and see on your site. You can define a specific set of permissions for each role. (See the <a href="!role">Roles</a> page to create a role.) Any permissions granted to the Authenticated user role will be given to any user who is logged in to your site. From the <a href="!settings">Account settings</a> page, you can make any role into an Administrator role for the site, meaning that role will be granted all new permissions automatically. You should be careful to ensure that only trusted users are given this access and level of control of your site.
+A role defines a group of users that have certain privileges. These privileges are defined on the <a href="!permissions">Permissions page</a>. Here, you can define the names and the display sort order of the roles on your site. It is recommended to order roles from least permissive (for example, Anonymous user) to most permissive (for example, Administrator user). Users who are not logged in have the Anonymous user role. Users who are logged in have the Authenticated user role, plus any other roles granted to their user account.
+The Views UI module provides an interface for managing views for the <a href="@views">Views module</a>. For more information, see the <a href="@handbook">online documentation for the Views UI module</a>.
+Views can be created from the <a href="@list">Views list page</a> by using the "Add new view" action. Existing views can be managed from the <a href="@list">Views list page</a> by locating the view in the "Enabled" or "Disabled" list and selecting the desired operation action, for example "Edit".
+Views can be enabled or disabled from the <a href="@list">Views list page</a>. To enable a view, find the view within the "Disabled" list and select the "Enable" operation. To disable a view find the view within the "Enabled" list and select the "Disable" operation.
+Views can be exported and imported as configuration files by using the <a href="@config">Configuration Manager module</a>.
+!group: !title
+You may also adjust the !settings for the currently selected access restriction.
+You may also adjust the !settings for the currently selected cache mechanism.
+You may also adjust the !settings for the currently selected style.
+You may also adjust the !settings for the currently selected row style.
+You may also adjust the !settings for the currently selected pager.
+An offset from the current time such as "!example1" or "!example2"
+@label (!name)
+!group: !field
+By breaking this lock, any unsaved changes made by !user will be lost.
+Add !display
+The following modules are required but were not found. Move them into the appropriate modules subdirectory, such as <em>/modules</em>. Missing modules: !modules
+Date part order: !order
+Time type: !time_type
+Time increments: !increment
+[!form] !subject
+!sender-name (!sender-url) sent a message using the contact form at !form-url.
+[!site-name] !subject
+Hello !recipient-name,
+!sender-name (!sender-url) has sent you a message via your contact form at !site-name.
+If you don't want to receive such emails, you can change your settings at !recipient-edit-url.
+!name (not verified)
+New release(s) available for !site_name
+Your site is currently configured to send these emails when any updates are available. To get notified only for security updates, !url.
+Your site is currently configured to send these emails only when security updates are available. To get notified for any available updates, !url.
+%archive_file contains a version of %names that is not compatible with Drupal !version.
+%archive_file contains versions of modules or themes that are not compatible with Drupal !version: %names
+Enable !display_title
+View !display_title
+Duplicate !display_title
+Delete !display_title
+Duplicate as !type
+Undo delete of !display_title
+Disable !display_title
+Entity type mismatch on rename. !old_type not equal to !new_type for existing configuration !old_name and staged configuration !new_name.
+Rename operation for simple configuration. Existing configuration !old_name and staged configuration !new_name.
+!source_name to !target_name
+==================================================
+171 matches found in the translation file

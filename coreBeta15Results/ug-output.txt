@@ -1,0 +1,5 @@
+!time ago
+Your site is currently configured to send these emails when any updates are available. To get notified only for security updates, !url.
+Your site is currently configured to send these emails only when security updates are available. To get notified for any available updates, !url.
+==================================================
+3 matches found in the translation file

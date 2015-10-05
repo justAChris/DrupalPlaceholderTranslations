@@ -1,0 +1,7 @@
+!time ago
+!group: !title
+@label (!name)
+!group: !field
+Add !display
+==================================================
+5 matches found in the translation file

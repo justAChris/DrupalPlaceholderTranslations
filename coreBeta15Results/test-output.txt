@@ -1,0 +1,8 @@
+This theme requires PHP version @php_required and is incompatible with PHP version !php_version.
+!name field is required.
+This module requires PHP version @php_required and is incompatible with PHP version !php_version.
+!name cannot be longer than %max characters but is currently %length characters long.
+Last run !time ago
+New release(s) available for !site_name
+==================================================
+6 matches found in the translation file

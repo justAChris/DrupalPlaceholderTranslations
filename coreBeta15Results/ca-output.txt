@@ -1,0 +1,66 @@
+Machine name: !machine-name
+Version: !module-version
+Requires: !module-list
+Required by: !module-list
+This theme requires PHP version @php_required and is incompatible with PHP version !php_version.
+Screenshot for !theme theme
+Settings for !theme theme
+Set !theme as default theme
+The %setting setting is currently set to '%current_value', but needs to be '%needed_value'. Change this by running the following query: !query
+!title feed
+Update !title
+The file used in the !name field may not be referenced.
+The file referenced by the !name field does not exist.
+Failed to connect to the server. The server reports the following message: !message For more help installing or updating code on your server, see the <a href="@handbook_url">handbook</a>.
+File Transfer failed, reason: !reason
+The parent page in the book. The maximum depth for a book and all child pages is !maxdepth. Some pages in the selected book may not be available as parents if selecting them would exceed this limit.
+!name field is required.
+!message (@percent%).
+This version is not compatible with Drupal !core_version and should be replaced.
+This module requires PHP version @php_required and is incompatible with PHP version !php_version.
+!tour_item of !total
+Site's default language (!language)
+Textfield size: !size
+image from !field_name
+Both a height and width value must be specified in the !name field.
+!name cannot be longer than %max characters but is currently %length characters long.
+file from !field_name
+The "!name" option must contain a valid value. You may either leave the text field empty or enter a string like "512" (bytes), "80 KB" (kilobytes) or "50 MB" (megabytes).
+Last run !time ago
+!time ago
+Text formats define the HTML tags, code, and other formatting that can be used when entering text. <strong>Improper text format configuration is a security risk</strong>. Learn more on the <a href="@filterhelp">Filter module help page</a>.
+The content access permissions need to be rebuilt. <a href="@node_access_rebuild">Rebuild permissions</a>.
+Define which shortcut set you are using on the <a href="@shortcut-link">Shortcuts tab</a> of your account page.
+Download additional <a href="!modules">contributed modules</a> to extend your site's functionality.
+Regularly review and install <a href="!updates">available updates</a> to maintain a secure and current site. Always run the <a href="!update-php">update script</a> each time a module is updated.
+!group: !title
+@code (!title)
+You may also adjust the !settings for the currently selected access restriction.
+You may also adjust the !settings for the currently selected cache mechanism.
+You may also adjust the !settings for the currently selected style.
+You may also adjust the !settings for the currently selected row style.
+You may also adjust the !settings for the currently selected pager.
+@label (!name)
+@label (!name:!column)
+@label:!column
+@label (!name:delta)
+!group: !field
+Add !display
+Language switcher (!type)
+Also known as: !also.
+!sender-name (!sender-url) sent a message using the contact form at !form-url.
+[!site-name] !subject
+Hello !recipient-name,
+!name (not verified)
+New release(s) available for !site_name
+Your site is currently configured to send these emails when any updates are available. To get notified only for security updates, !url.
+Your site is currently configured to send these emails only when security updates are available. To get notified for any available updates, !url.
+%archive_file contains a version of %names that is not compatible with Drupal !version.
+%archive_file contains versions of modules or themes that are not compatible with Drupal !version: %names
+Enable !display_title
+View !display_title
+Delete !display_title
+Duplicate as !type
+Disable !display_title
+==================================================
+64 matches found in the translation file

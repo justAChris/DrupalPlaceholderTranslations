@@ -1,0 +1,36 @@
+Requires: !module-list
+Required by: !module-list
+This theme requires PHP version @php_required and is incompatible with PHP version !php_version.
+Screenshot for !theme theme
+Settings for !theme theme
+Set !theme as default theme
+The %setting setting is currently set to '%current_value', but needs to be '%needed_value'. Change this by running the following query: !query
+!title feed
+The file used in the !name field may not be referenced.
+The file referenced by the !name field does not exist.
+Failed to connect to the server. The server reports the following message: !message For more help installing or updating code on your server, see the <a href="@handbook_url">handbook</a>.
+File Transfer failed, reason: !reason
+The parent page in the book. The maximum depth for a book and all child pages is !maxdepth. Some pages in the selected book may not be available as parents if selecting them would exceed this limit.
+!name field is required.
+This version is not compatible with Drupal !core_version and should be replaced.
+This module requires PHP version @php_required and is incompatible with PHP version !php_version.
+Textfield size: !size
+Number of rows: !rows
+Both a height and width value must be specified in the !name field.
+!name cannot be longer than %max characters but is currently %length characters long.
+The "!name" option must contain a valid value. You may either leave the text field empty or enter a string like "512" (bytes), "80 KB" (kilobytes) or "50 MB" (megabytes).
+Last run !time ago
+!time ago
+Text formats define the HTML tags, code, and other formatting that can be used when entering text. <strong>Improper text format configuration is a security risk</strong>. Learn more on the <a href="@filterhelp">Filter module help page</a>.
+The content access permissions need to be rebuilt. <a href="@node_access_rebuild">Rebuild permissions</a>.
+Define which shortcut set you are using on the <a href="@shortcut-link">Shortcuts tab</a> of your account page.
+!sender-name (!sender-url) sent a message using the contact form at !form-url.
+[!site-name] !subject
+Hello !recipient-name,
+New release(s) available for !site_name
+Your site is currently configured to send these emails when any updates are available. To get notified only for security updates, !url.
+Your site is currently configured to send these emails only when security updates are available. To get notified for any available updates, !url.
+%archive_file contains a version of %names that is not compatible with Drupal !version.
+%archive_file contains versions of modules or themes that are not compatible with Drupal !version: %names
+==================================================
+34 matches found in the translation file

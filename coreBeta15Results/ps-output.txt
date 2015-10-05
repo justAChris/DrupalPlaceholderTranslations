@@ -1,0 +1,8 @@
+!group: !title
+@label (!name)
+@label (!name:!column)
+@label:!column
+@label (!name:delta)
+!group: !field
+==================================================
+6 matches found in the translation file

@@ -1,0 +1,15 @@
+The %setting setting is currently set to '%current_value', but needs to be '%needed_value'. Change this by running the following query: !query
+!title feed
+The file used in the !name field may not be referenced.
+Failed to connect to the server. The server reports the following message: !message For more help installing or updating code on your server, see the <a href="@handbook_url">handbook</a>.
+!name field is required.
+!name cannot be longer than %max characters but is currently %length characters long.
+!time ago
+!group: !title
+@label (!name)
+!group: !field
+By breaking this lock, any unsaved changes made by !user will be lost.
+%archive_file contains a version of %names that is not compatible with Drupal !version.
+%archive_file contains versions of modules or themes that are not compatible with Drupal !version: %names
+==================================================
+13 matches found in the translation file

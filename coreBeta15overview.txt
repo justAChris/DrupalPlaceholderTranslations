@@ -1,0 +1,112 @@
+File drupal-8.0.0-beta15.prs.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.af.po: 3 matches found
+Searching drupal-8.0.0-beta15.sq.po: 8 matches found
+Searching drupal-8.0.0-beta15.am.po: 1 matches found
+Searching drupal-8.0.0-beta15.ar.po: 32 matches found
+Searching drupal-8.0.0-beta15.hy.po: 1 matches found
+File drupal-8.0.0-beta15.as.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.ast.po: 3 matches found
+Searching drupal-8.0.0-beta15.az.po: 0 matches found
+Searching drupal-8.0.0-beta15.ms.po: 32 matches found
+Searching drupal-8.0.0-beta15.eu.po: 18 matches found
+Searching drupal-8.0.0-beta15.be.po: 34 matches found
+Searching drupal-8.0.0-beta15.bn.po: 2 matches found
+Searching drupal-8.0.0-beta15.bs.po: 7 matches found
+Searching drupal-8.0.0-beta15.bg.po: 13 matches found
+Searching drupal-8.0.0-beta15.my.po: 2 matches found
+Searching drupal-8.0.0-beta15.ca.po: 64 matches found
+Searching drupal-8.0.0-beta15.zh-hans.po: 60 matches found
+Searching drupal-8.0.0-beta15.zh-hant.po: 66 matches found
+Searching drupal-8.0.0-beta15.hr.po: 34 matches found
+Searching drupal-8.0.0-beta15.cs.po: 38 matches found
+Searching drupal-8.0.0-beta15.da.po: 126 matches found
+Searching drupal-8.0.0-beta15.nl.po: 102 matches found
+Searching drupal-8.0.0-beta15.dz.po: 2 matches found
+Searching drupal-8.0.0-beta15.en-gb.po: 7 matches found
+Searching drupal-8.0.0-beta15.eo.po: 13 matches found
+Searching drupal-8.0.0-beta15.et.po: 46 matches found
+Searching drupal-8.0.0-beta15.fo.po: 9 matches found
+Searching drupal-8.0.0-beta15.fil.po: 4 matches found
+Searching drupal-8.0.0-beta15.fi.po: 101 matches found
+Searching drupal-8.0.0-beta15.fr.po: 77 matches found
+Searching drupal-8.0.0-beta15.fy.po: 2 matches found
+Searching drupal-8.0.0-beta15.gl.po: 38 matches found
+Searching drupal-8.0.0-beta15.ka.po: 3 matches found
+Searching drupal-8.0.0-beta15.de.po: 59 matches found
+Searching drupal-8.0.0-beta15.el.po: 37 matches found
+Searching drupal-8.0.0-beta15.gu.po: 0 matches found
+Searching drupal-8.0.0-beta15.ht.po: 0 matches found
+Searching drupal-8.0.0-beta15.he.po: 17 matches found
+Searching drupal-8.0.0-beta15.hi.po: 13 matches found
+File drupal-8.0.0-beta15.zh-hk.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.hu.po: 184 matches found
+Searching drupal-8.0.0-beta15.is.po: 5 matches found
+Searching drupal-8.0.0-beta15.id.po: 35 matches found
+Searching drupal-8.0.0-beta15.ga.po: 1 matches found
+Searching drupal-8.0.0-beta15.it.po: 62 matches found
+Searching drupal-8.0.0-beta15.ja.po: 171 matches found
+Searching drupal-8.0.0-beta15.jv.po: 30 matches found
+Searching drupal-8.0.0-beta15.kn.po: 1 matches found
+Searching drupal-8.0.0-beta15.kk.po: 10 matches found
+Searching drupal-8.0.0-beta15.km.po: 32 matches found
+File drupal-8.0.0-beta15.rw.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.ko.po: 42 matches found
+Searching drupal-8.0.0-beta15.ku.po: 10 matches found
+Searching drupal-8.0.0-beta15.ky.po: 1 matches found
+Searching drupal-8.0.0-beta15.lo.po: 0 matches found
+Searching drupal-8.0.0-beta15.lv.po: 21 matches found
+Searching drupal-8.0.0-beta15.lt.po: 38 matches found
+Searching drupal-8.0.0-beta15.xx-lolspeak.po: 0 matches found
+File drupal-8.0.0-beta15.lb.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.mk.po: 1 matches found
+Searching drupal-8.0.0-beta15.mg.po: 0 matches found
+Searching drupal-8.0.0-beta15.ml.po: 3 matches found
+Searching drupal-8.0.0-beta15.mt.po: 0 matches found
+File drupal-8.0.0-beta15.mi.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.mr.po: 0 matches found
+File drupal-8.0.0-beta15.mfe.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.mn.po: 3 matches found
+Searching drupal-8.0.0-beta15.ne.po: 1 matches found
+Searching drupal-8.0.0-beta15.se.po: 1 matches found
+Searching drupal-8.0.0-beta15.nb.po: 55 matches found
+Searching drupal-8.0.0-beta15.nn.po: 8 matches found
+Searching drupal-8.0.0-beta15.oc.po: 30 matches found
+Searching drupal-8.0.0-beta15.or.po: 1 matches found
+Searching drupal-8.0.0-beta15.os.po: 0 matches found
+Searching drupal-8.0.0-beta15.ps.po: 6 matches found
+File drupal-8.0.0-beta15.fa.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.pl.po: 51 matches found
+Searching drupal-8.0.0-beta15.pt-br.po: 51 matches found
+File drupal-8.0.0-beta15.pt.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.pt-pt.po: 78 matches found
+Searching drupal-8.0.0-beta15.pa.po: 1 matches found
+Searching drupal-8.0.0-beta15.rhg.po: 11 matches found
+Searching drupal-8.0.0-beta15.ro.po: 18 matches found
+Searching drupal-8.0.0-beta15.ru.po: 66 matches found
+Searching drupal-8.0.0-beta15.sco.po: 0 matches found
+Searching drupal-8.0.0-beta15.gd.po: 3 matches found
+Searching drupal-8.0.0-beta15.sr.po: 2 matches found
+File drupal-8.0.0-beta15.sd.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.si.po: 0 matches found
+Searching drupal-8.0.0-beta15.sk.po: 33 matches found
+Searching drupal-8.0.0-beta15.sl.po: 4 matches found
+File drupal-8.0.0-beta15.so.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.es.po: 172 matches found
+Searching drupal-8.0.0-beta15.sw.po: 0 matches found
+Searching drupal-8.0.0-beta15.sv.po: 104 matches found
+Searching drupal-8.0.0-beta15.gsw-berne.po: 4 matches found
+Searching drupal-8.0.0-beta15.ta.po: 16 matches found
+Searching drupal-8.0.0-beta15.ta-lk.po: 2 matches found
+Searching drupal-8.0.0-beta15.te.po: 8 matches found
+Searching drupal-8.0.0-beta15.test.po: 6 matches found
+Searching drupal-8.0.0-beta15.th.po: 13 matches found
+Searching drupal-8.0.0-beta15.bo.po: 5 matches found
+File drupal-8.0.0-beta15.ti.po not found: 0 matches found
+Searching drupal-8.0.0-beta15.tr.po: 42 matches found
+Searching drupal-8.0.0-beta15.tyv.po: 2 matches found
+Searching drupal-8.0.0-beta15.ug.po: 3 matches found
+Searching drupal-8.0.0-beta15.uk.po: 323 matches found
+Searching drupal-8.0.0-beta15.ur.po: 7 matches found
+Searching drupal-8.0.0-beta15.vi.po: 35 matches found
+Searching drupal-8.0.0-beta15.cy.po: 11 matches found
+File drupal-8.0.0-beta15.yi.po not found: 0 matches found

@@ -1,0 +1,7 @@
+!name field is required.
+!message (@percent%).
+Last run !time ago
+!group: !title
+!group: !field
+==================================================
+5 matches found in the translation file

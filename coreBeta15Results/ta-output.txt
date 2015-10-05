@@ -1,0 +1,18 @@
+Requires: !module-list
+Settings for !theme theme
+Set !theme as default theme
+!title feed
+Update !title
+Failed to connect to the server. The server reports the following message: !message For more help installing or updating code on your server, see the <a href="@handbook_url">handbook</a>.
+File Transfer failed, reason: !reason
+!name field is required.
+This module requires PHP version @php_required and is incompatible with PHP version !php_version.
+Textfield size: !size
+!name cannot be longer than %max characters but is currently %length characters long.
+Last run !time ago
+!time ago
+[!site-name] !subject
+Hello !recipient-name,
+New release(s) available for !site_name
+==================================================
+16 matches found in the translation file

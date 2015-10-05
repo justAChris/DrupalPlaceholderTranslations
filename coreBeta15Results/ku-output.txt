@@ -1,0 +1,12 @@
+Requires: !module-list
+Required by: !module-list
+Settings for !theme theme
+Set !theme as default theme
+!title feed
+!name field is required.
+Last run !time ago
+!time ago
+[!site-name] !subject
+Hello !recipient-name,
+==================================================
+10 matches found in the translation file

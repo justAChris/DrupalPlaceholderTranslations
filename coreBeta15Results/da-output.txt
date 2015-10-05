@@ -1,0 +1,128 @@
+In reply to !parent_title by !parent_username
+Version: !module-version
+Requires: !module-list
+Required by: !module-list
+This theme requires PHP version @php_required and is incompatible with PHP version !php_version.
+Screenshot for !theme theme
+Settings for !theme theme
+Uninstall !theme theme
+Set !theme as default theme
+Install !theme theme
+Install !theme as default theme
+The %driver database must use %encoding encoding to work with Drupal. Recreate the database with %encoding encoding. See !link for more details.
+The %setting setting is currently set to '%current_value', but needs to be '%needed_value'. Change this by running the following query: !query
+!title feed
+!label <span class="visually-hidden">(!source_language)</span>
+Update !title
+!collection configuration collection
+The file used in the !name field may not be referenced.
+The file referenced by the !name field does not exist.
+!size limit.
+Memory usage is !usage (!pct% of limit !limit), reclaiming memory.
+Memory usage is now !usage (!pct% of limit !limit), not enough reclaimed, starting new batch
+Memory usage is now !usage (!pct% of limit !limit), reclaimed enough, continuing
+Required if you want to change the %mail or %pass below. !request_new.
+Failed to connect to the server. The server reports the following message: !message For more help installing or updating code on your server, see the <a href="@handbook_url">handbook</a>.
+File Transfer failed, reason: !reason
+Migration failed with source plugin exception: !e
+The parent page in the book. The maximum depth for a book and all child pages is !maxdepth. Some pages in the selected book may not be available as parents if selecting them would exceed this limit.
+!name field is required.
+Number of summary rows: !rows
+!message (@percent%).
+This version is not compatible with Drupal !core_version and should be replaced.
+This module requires PHP version @php_required and is incompatible with PHP version !php_version.
+!tour_item of !total
+Site's default language (!language)
+The parent website's description that comes from the !description element in the feed.
+Textfield size: !size
+Number of rows: !rows
+URI field size: !size
+image from !field_name
+Both a height and width value must be specified in the !name field.
+!name cannot be longer than %max characters but is currently %length characters long.
+Files in the !name field were unable to be uploaded.
+file from !field_name
+The "!name" option must contain a valid value. You may either leave the text field empty or enter a string like "512" (bytes), "80 KB" (kilobytes) or "50 MB" (megabytes).
+Last run !time ago
+!time ago
+The Aggregator module is an on-site syndicator and news reader that gathers and displays fresh content from RSS-, RDF-, and Atom-based feeds made available across the web. Thousands of sites (particularly news sites and blogs) publish their latest headlines in feeds, using a number of standardized XML-based formats. For more information, see the <a href="!aggregator-module">online documentation for the Aggregator module</a>.
+A <a href="!aggregator-opml">machine-readable OPML file</a> of all feeds is available. OPML is an XML-based file format used to share outline-structured information such as a list of RSS feeds. Feeds can also be <a href="!import-opml">imported via an OPML file</a>.
+A working <a href="!cron">cron maintenance task</a> is required to update feeds automatically.
+Current feeds are listed below, and <a href="!addfeed">new feeds may be added</a>. For each feed, the <em>latest items</em> block may be enabled at the <a href="!block">blocks administration page</a>.
+Administrators can enter IP addresses to ban on the <a href="!bans">IP address bans</a> page.
+The outline feature allows you to include pages in the <a href="!book">Book hierarchy</a>, as well as move them within the hierarchy or to <a href="!book-admin">reorder an entire book</a>.
+The Comment module allows users to comment on site content, set commenting defaults and permissions, and moderate comments. For more information, see the <a href="!comment">online documentation for the Comment module</a>.
+In order to translate configuration, the website must have at least two <a href="!url">languages</a>.
+The Database Logging module logs system events in the Drupal database. For more information, see the online handbook entry for the <a href="!dblog">Database Logging module</a>.
+The Database Logging module allows you to view an event log on the <a href="!dblog">Recent log messages</a> page. The log is a chronological list of recorded events containing usage data, performance data, errors, warnings and operational information. Administrators should check the log on a regular basis to ensure their site is working properly.
+In case of errors or problems with the site, the <a href="!dblog">Recent log messages</a> page can be useful for debugging, since it shows the sequence of events. The log messages include usage information, warnings, and errors.
+Text formats define the HTML tags, code, and other formatting that can be used when entering text. <strong>Improper text format configuration is a security risk</strong>. Learn more on the <a href="@filterhelp">Filter module help page</a>.
+For more information, see <a href="!forum">the online documentation for the Forum module</a>.
+Visit the <a href="!forums">Forums page</a> to set up containers and forums to hold your discussion topics.
+The <a href="!create-topic">Forum topic</a> link on the <a href="!content-add">Add content</a> page creates the first post of a new threaded discussion, or thread.
+Enabling the Forum module provides a default <em>Forums</em> menu item in the Tools menu that links to the <a href="!forums">Forums page</a>.
+Adjust the display of your forum topics. Organize the forums on the <a href="!forum-structure">forum structure page</a>.
+<a href="!hal_spec">Hypertext Application Language (HAL)</a> is a format that supports the linking required for hypermedia APIs.
+<strong>Configure your website</strong> Once logged in, visit the <a href="!admin">Administration page</a>, where you may <a href="!config">customize and configure</a> all aspects of your website.
+<strong>Start posting content</strong> Finally, you may <a href="!content">add new content</a> to your website.
+The Help module displays explanations for using each module listed on the main <a href="!help">Help reference page</a>.
+You can enable the newly-created block for this menu on the <a href="!blocks">Block layout page</a>.
+Each menu has a corresponding block that is managed on the <a href="!blocks">Block layout page</a>.
+The content access permissions need to be rebuilt. <a href="@node_access_rebuild">Rebuild permissions</a>.
+The Node module manages the creation, editing, deletion, settings, and display of the main site content. Content items managed by the Node module are typically displayed as pages on your site, and include a title, some meta-data (author, creation time, content type, etc.), and optional fields containing text or other data (fields are managed by the <a href="!field">Field module</a>). For more information, see <a href="!node">the online documentation for the Node module</a>.
+When new content is created, the Node module records basic information about the content, including the author, date of creation, and the <a href="!content-type">Content type</a>. It also manages the <em>publishing options</em>, which define whether or not the content is published, promoted to the front page of the site, and/or sticky at the top of content lists. Default settings can be configured for each <a href="!content-type">type of content</a> on your site.
+The Node module makes a number of permissions available for each content type, which can be set by role on the <a href="!permissions">permissions page</a>.
+The Path module allows you to specify an alias, or custom URL, for any existing internal system path. Aliases should not be confused with URL redirects, which allow you to forward a changed or inactive URL to a new URL. In addition to making URLs more readable, aliases also help search engines index content more effectively. Multiple aliases may be used for a single internal system path. To automate the aliasing of paths, you can install the contributed module <a href="!pathauto">Pathauto</a>. For more information, see the <a href="!path">online documentation for the Path module</a>.
+The Path module provides a way to search and view a <a href="!aliases">list of all aliases</a> that are in use on your website. Aliases can be added, edited and deleted through this list.
+The search engine maintains an index of words found in your site's content. To build and maintain this index, a correctly configured <a href="!cron">cron maintenance task</a> is required. Indexing behavior can be adjusted using the settings below.
+Users with the <em>Administer shortcuts</em> permission can manage shortcut sets and edit the shortcuts within sets from the <a href="!shortcuts">Shortcuts administration page</a>.
+Define which shortcut set you are using on the <a href="@shortcut-link">Shortcuts tab</a> of your account page.
+The Testing module provides a framework for running automated tests. It can be used to verify a working state of Drupal before and after any code changes, or as a means for developers to write and execute tests for their modules. For more information, see <a href="!simpletest">the online documentation for the Testing module</a>.
+The <a href="!recent">Recent content</a> page shows new and updated content in reverse chronological order, listing the content type, title, author's name, number of comments, and time of last update. Content is considered updated when changes occur in the text, or when new comments are added. The <em>My recent content</em> tab limits the list to the currently logged-in user.
+For more information, see the <a href="!views">online documentation for the Views module</a>.
+Views can be exported and imported as configuration files by using the <a href="@config">Configuration Manager module</a>.
+!group: !title
+@code (!title)
+You may also adjust the !settings for the currently selected access restriction.
+You may also adjust the !settings for the currently selected cache mechanism.
+You may also adjust the !settings for the currently selected style.
+You may also adjust the !settings for the currently selected row style.
+You may also adjust the !settings for the currently selected pager.
+An offset from the current time such as "!example1" or "!example2"
+@label (!name)
+@label (!name:!column)
+@label:!column
+@label (!name:delta)
+!group: !field
+By breaking this lock, any unsaved changes made by !user will be lost.
+Add !display
+The following modules are required but were not found. Move them into the appropriate modules subdirectory, such as <em>/modules</em>. Missing modules: !modules
+Date part order: !order
+Time type: !time_type
+Time increments: !increment
+Language switcher (!type)
+Also known as: !also.
+[!form] !subject
+!sender-name (!sender-url) sent a message using the contact form at !form-url.
+[!site-name] !subject
+Hello !recipient-name,
+!sender-name (!sender-url) has sent you a message via your contact form at !site-name.
+If you don't want to receive such emails, you can change your settings at !recipient-edit-url.
+!name (not verified)
+New release(s) available for !site_name
+Your site is currently configured to send these emails when any updates are available. To get notified only for security updates, !url.
+Your site is currently configured to send these emails only when security updates are available. To get notified for any available updates, !url.
+%archive_file contains a version of %names that is not compatible with Drupal !version.
+%archive_file contains versions of modules or themes that are not compatible with Drupal !version: %names
+Could not save to map table due to NULL value for key field !field
+Enable !display_title
+View !display_title
+Duplicate !display_title
+Delete !display_title
+Duplicate as !type
+Undo delete of !display_title
+Disable !display_title
+… !excerpt … !excerpt …
+!source_name to !target_name
+==================================================
+126 matches found in the translation file

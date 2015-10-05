@@ -1,0 +1,13 @@
+Requires: !module-list
+Required by: !module-list
+Screenshot for !theme theme
+Settings for !theme theme
+Set !theme as default theme
+!title feed
+The parent page in the book. The maximum depth for a book and all child pages is !maxdepth. Some pages in the selected book may not be available as parents if selecting them would exceed this limit.
+!name field is required.
+!name cannot be longer than %max characters but is currently %length characters long.
+Last run !time ago
+!time ago
+==================================================
+11 matches found in the translation file

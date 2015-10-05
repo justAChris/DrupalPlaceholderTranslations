@@ -1,0 +1,9 @@
+!title feed
+!name field is required.
+!name cannot be longer than %max characters but is currently %length characters long.
+!time ago
+!sender-name (!sender-url) sent a message using the contact form at !form-url.
+Your site is currently configured to send these emails when any updates are available. To get notified only for security updates, !url.
+Your site is currently configured to send these emails only when security updates are available. To get notified for any available updates, !url.
+==================================================
+7 matches found in the translation file

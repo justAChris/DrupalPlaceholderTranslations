@@ -1,0 +1,15 @@
+This theme requires PHP version @php_required and is incompatible with PHP version !php_version.
+Screenshot for !theme theme
+Settings for !theme theme
+Set !theme as default theme
+!title feed
+The parent page in the book. The maximum depth for a book and all child pages is !maxdepth. Some pages in the selected book may not be available as parents if selecting them would exceed this limit.
+!name field is required.
+This module requires PHP version @php_required and is incompatible with PHP version !php_version.
+!name cannot be longer than %max characters but is currently %length characters long.
+Last run !time ago
+!time ago
+Define which shortcut set you are using on the <a href="@shortcut-link">Shortcuts tab</a> of your account page.
+New release(s) available for !site_name
+==================================================
+13 matches found in the translation file

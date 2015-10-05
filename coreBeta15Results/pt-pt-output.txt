@@ -1,0 +1,80 @@
+Requires: !module-list
+Required by: !module-list
+This theme requires PHP version @php_required and is incompatible with PHP version !php_version.
+Screenshot for !theme theme
+Settings for !theme theme
+Set !theme as default theme
+The %setting setting is currently set to '%current_value', but needs to be '%needed_value'. Change this by running the following query: !query
+!title feed
+!label <span class="visually-hidden">(!source_language)</span>
+Update !title
+The file used in the !name field may not be referenced.
+The file referenced by the !name field does not exist.
+Failed to connect to the server. The server reports the following message: !message For more help installing or updating code on your server, see the <a href="@handbook_url">handbook</a>.
+File Transfer failed, reason: !reason
+The parent page in the book. The maximum depth for a book and all child pages is !maxdepth. Some pages in the selected book may not be available as parents if selecting them would exceed this limit.
+!name field is required.
+This version is not compatible with Drupal !core_version and should be replaced.
+This module requires PHP version @php_required and is incompatible with PHP version !php_version.
+Site's default language (!language)
+The parent website's description that comes from the !description element in the feed.
+Number of rows: !rows
+image from !field_name
+Both a height and width value must be specified in the !name field.
+!name cannot be longer than %max characters but is currently %length characters long.
+file from !field_name
+The "!name" option must contain a valid value. You may either leave the text field empty or enter a string like "512" (bytes), "80 KB" (kilobytes) or "50 MB" (megabytes).
+Date (e.g. !format)
+Time (e.g. !format)
+Last run !time ago
+!time ago
+The Configuration Translation module allows you to translate configuration text; for example, the site name, vocabularies, menus, or date formats. Together with the modules <a href="!language">Language</a>, <a href="!content-translation">Content Translation</a>, and <a href="!locale">Interface Translation</a>, it allows you to build multilingual websites. For more information, see the <a href="!doc_url">online documentation for the Configuration Translation module</a>.
+In order to translate configuration, the website must have at least two <a href="!url">languages</a>.
+Users with the <em>Translate user edited configuration</em> permission can access the configuration translation overview, and manage translations for specific languages. The <a href="!translation-page">Configuration translation</a> page shows a list of all configuration text that can be translated, either as individual items or as lists. After you click on <em>Translate</em>, you are provided with a list of all languages. You can <em>add</em> or <em>edit</em> a translation for a specific language. Users with specific configuration permissions can also <em>edit</em> the text for the site's default language. For some configuration text items (for example for the site information), the specific translation pages can also be accessed directly from their configuration pages.
+You can choose to translate date formats on the <a href="!translation-page">Configuration translation</a> page. This allows you not only to translate the label text, but also to set a language-specific <em>PHP date format</em>.
+In order to translate content, the website must have at least two <a href="!url">languages</a>. When that is the case, you can enable translation for the desired content entities on the <a href="!translation-entity">Content language</a> page. When enabling translation you can choose the default language for content and decide whether to show the language selection field on the content editing forms.
+Before you can translate content, there must be at least two languages added on the <a href="!url">languages administration</a> page.
+Text formats define the HTML tags, code, and other formatting that can be used when entering text. <strong>Improper text format configuration is a security risk</strong>. Learn more on the <a href="@filterhelp">Filter module help page</a>.
+The Language module allows you to configure the languages used on your site, and provides information for the for <a href="!content">Content Translation</a>, <a href="!interface">Interface Translation</a>, and <a href="!configuration">Configuration Translation</a> modules, if they are enabled. For more information, see <a href="!doc_url">the online documentation for the Language module</a>.
+You can add languages on the <a href="!language_list">Languages</a> page by selecting <em>Add language</em> and choosing a language from the drop-down menu. This language is then displayed in the languages list, where it can be configured further. If the <a href="!interface">Interface translation module</a> is enabled, and the <em>translation server</em> is set as a translation source, then the interface translation for this language is automatically downloaded as well.
+By default, content is created in the site's default language and no language selector is displayed on content creation pages. On the <a href="!content_language">Content language</a> page you can customize the language configuration for any supported content entity on your site (for example for content types or menu links). After choosing an entity, you are provided with a drop-down menu to set the default language and a check-box to display language selectors.
+If the Block module is enabled, then you can add a language switcher block on the <a href="!blocks">Block layout</a> page to allow users to switch between languages.
+If the Block module is enabled, then the Language module allows you to set the visibility of a block based on selected languages on the <a href="!blocks">Block layout</a> page.
+<em>Browser</em> sets the interface language based on the browser's language settings. Since browsers use different language codes to refer to the same languages, you can add and edit languages codes to map the browser language codes to the <a href="!language_list">language codes</a> used on your site.
+Browsers use different language codes to refer to the same languages. Internally, a best effort is made to determine the correct language based on the code that the browser sends. You can add and edit additional mappings from browser language codes to <a href="!configure-languages">site languages</a>.
+The Interface Translation module allows you to translate interface text (<em>strings</em>) into different languages, and to switch between them for the display of interface text. It uses the functionality provided by the <a href="!language">Language module</a>. For more information, see the <a href="!doc-url">online documentation for the Interface Translation module</a>.
+You can check how much of the interface on your site is translated into which language on the <a href="!languages">Languages</a> page. On the <a href="!translation-updates">Available translation updates</a> page, you can check whether interface translation updates are available on the <a href="!server">Drupal translation server</a>.
+Interface translations are automatically imported when a language is added, or when new modules or themes are enabled. The report <a href="!update">Available translation updates</a> shows the status. Interface text can be customized in the <a href="!translate">user interface translation</a> page.
+This page allows a translator to search for specific translated and untranslated strings, and is used when creating or editing translations. (Note: Because translation tasks involve many strings, it may be more convenient to <a title="User interface translation export" href="!export">export</a> strings for offline editing in a desktop Gettext translation editor.) Searches may be limited to strings in a specific language.
+Translation files are automatically downloaded and imported when <a title="Languages" href="!language">languages</a> are added, or when modules or themes are enabled.
+The content access permissions need to be rebuilt. <a href="@node_access_rebuild">Rebuild permissions</a>.
+By default, the Search module only supports exact keyword matching in content searches. You can modify this behavior by installing a language-specific stemming module for your language (such as <a href="!porterstemmer_url">Porter Stemmer</a> for American English), which allows words such as walk, walking, and walked to be matched in the Search module. Another approach is to use a third-party search technology with stemming or partial word matching features built in, such as <a href="!solr_url">Apache Solr</a> or <a href="!sphinx_url">Sphinx</a>. There are also contributed modules that provide additional search pages. These and other <a href="!contrib-search">search-related contributed modules</a> can be downloaded by visiting Drupal.org.
+Define which shortcut set you are using on the <a href="@shortcut-link">Shortcuts tab</a> of your account page.
+!group: !title
+@label (!name)
+@label (!name:!column)
+@label:!column
+@label (!name:delta)
+!group: !field
+Add !display
+The following modules are required but were not found. Move them into the appropriate modules subdirectory, such as <em>/modules</em>. Missing modules: !modules
+Language switcher (!type)
+Also known as: !also.
+!sender-name (!sender-url) sent a message using the contact form at !form-url.
+[!site-name] !subject
+Hello !recipient-name,
+!name (not verified)
+New release(s) available for !site_name
+Your site is currently configured to send these emails when any updates are available. To get notified only for security updates, !url.
+Your site is currently configured to send these emails only when security updates are available. To get notified for any available updates, !url.
+%archive_file contains a version of %names that is not compatible with Drupal !version.
+%archive_file contains versions of modules or themes that are not compatible with Drupal !version: %names
+Enable !display_title
+View !display_title
+Duplicate !display_title
+Delete !display_title
+Duplicate as !type
+Disable !display_title
+… !excerpt … !excerpt …
+==================================================
+78 matches found in the translation file

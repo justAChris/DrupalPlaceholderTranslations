@@ -1,0 +1,4 @@
+!time ago
+Hello !recipient-name,
+==================================================
+2 matches found in the translation file

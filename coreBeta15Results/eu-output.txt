@@ -1,0 +1,20 @@
+!title feed
+Update !title
+Failed to connect to the server. The server reports the following message: !message For more help installing or updating code on your server, see the <a href="@handbook_url">handbook</a>.
+!name field is required.
+!name cannot be longer than %max characters but is currently %length characters long.
+Last run !time ago
+!time ago
+<strong>Start posting content</strong> Finally, you may <a href="!content">add new content</a> to your website.
+!group: !title
+@label (!name)
+@label (!name:!column)
+@label:!column
+@label (!name:delta)
+!group: !field
+[!site-name] !subject
+Hello !recipient-name,
+New release(s) available for !site_name
+Your site is currently configured to send these emails only when security updates are available. To get notified for any available updates, !url.
+==================================================
+18 matches found in the translation file
